@@ -1,0 +1,45 @@
+
+.navbar {
+    background-color: #006f91; 
+    border: none;
+    border-radius: 0;
+  }
+  
+ 
+  .navbar-brand {
+    color: #fff; 
+    font-size: 24px;
+  }
+  
+  .navbar-brand:hover,
+  .navbar-brand:focus {
+    color: rgb(255, 0, 0); 
+  }
+  
+ 
+  .navbar-nav > li > a {
+    color: rgb(255, 0, 0); 
+    font-size: 18px;
+  }
+  
+  .navbar-nav > li > a:hover,
+  .navbar-nav > li > a:focus {
+    color: rgb(22, 131, 158); 
+  }
+  
+
+  .dropdown-menu {
+    background-color: #4CAF50; 
+    border-radius: 0;
+  }
+  
+  .dropdown-menu > li > a {
+    color: rgb(0, 204, 255); 
+  }
+  
+  .dropdown-menu > li > a:hover,
+  .dropdown-menu > li > a:focus {
+    color: #ccc; 
+    background-color: #3e8e41; 
+  }
+  

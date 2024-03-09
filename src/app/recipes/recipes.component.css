@@ -1,0 +1,114 @@
+/* Styles for the recipe detail component */
+
+/* Container styles */
+.recipe-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; /* Add transition for box shadow */
+}
+
+/* Hover effect for container */
+.recipe-container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Image styles */
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add margin bottom for spacing */
+}
+
+/* Heading styles */
+.recipe-title {
+    font-size: 28px;
+    margin: 20px 0;
+    color: #333;
+    font-weight: bold; /* Increase font weight */
+}
+
+/* Button group styles */
+.btn-group {
+    margin-bottom: 20px;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    min-width: 150px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dropdown-menu li {
+    padding: 10px 15px;
+}
+
+.dropdown-menu li a {
+    display: block;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Add transition for background color */
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f5f5f5;
+}
+
+/* Description styles */
+.recipe-description {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Ingredients styles */
+.recipe-ingredients {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Ingredients list styles */
+.ingredients-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ingredients-list li {
+    margin-bottom: 10px;
+}
+
+/* Ingredient item styles */
+.ingredient-item {
+    display: flex;
+    align-items: center;
+}
+
+.ingredient-name {
+    flex-grow: 1;
+    margin-right: 10px;
+    color: #333;
+}
+
+.ingredient-amount {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    /* Adjust font size for smaller screens */
+    .recipe-title {
+        font-size: 24px;
+    }
+    .recipe-description,
+    .recipe-ingredients {
+        font-size: 18px;
+    }
+}

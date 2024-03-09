@@ -1,0 +1,93 @@
+/* Styles for the recipe detail component */
+
+/* Container styles */
+.recipe-container {
+    padding: 20px;
+    border: 1px solid rgb(20, 75, 146);
+    border-radius: 10px;
+    background-color: #256685;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styles */
+.recipe-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Heading styles */
+.recipe-title {
+    font-size: 28px;
+    margin: 20px 0;
+    color: rgb(34, 108, 151);
+}
+
+/* Button group styles */
+.btn-group {
+    margin-bottom: 20px;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    min-width: 150px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dropdown-menu li {
+    padding: 10px 15px;
+}
+
+.dropdown-menu li a {
+    display: block;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f5f5f5;
+}
+
+/* Description styles */
+.recipe-description {
+    font-size: 20px;
+    line-height: 1.5;
+    color: rgb(28, 74, 134);
+}
+
+/* Ingredients styles */
+.recipe-ingredients {
+    font-size: 20px;
+    color: rgb(24, 83, 117);
+}
+
+/* Ingredients list styles */
+.ingredients-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ingredients-list li {
+    margin-bottom: 10px;
+}
+
+/* Ingredient item styles */
+.ingredient-item {
+    display: flex;
+    align-items: center;
+}
+
+.ingredient-name {
+    flex-grow: 1;
+    margin-right: 10px;
+    color: #333;
+}
+
+.ingredient-amount {
+    font-weight: bold;
+    color: #333;
+}

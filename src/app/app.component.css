@@ -1,0 +1,34 @@
+
+body {
+    background-color: #247488; /* Set background color */
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px; /* Set maximum width for the container */
+    margin: 20px auto; /* Center the container */
+    background-color: rgb(48, 138, 150); /* Container background color */
+    border-radius: 8px; /* Add border radius to container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    padding: 20px; /* Add padding */
+  }
+  
+  /* Title styles */
+  h1 {
+    font-size: 32px;
+    color: rgb(255, 255, 255); /* Change the text color as needed */
+    margin-bottom: 20px; /* Add margin to the bottom of the title */
+  }
+  
+  /* Header styles */
+  app-header {
+    margin-bottom: 20px; /* Add margin to the bottom of the header */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 992px) {
+    .container {
+      padding: 0 15px; /* Add padding to the sides of the container */
+    }
+  }
+  
